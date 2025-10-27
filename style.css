@@ -1,0 +1,36 @@
+body {
+  display: block;
+  background-image: url("./imgs/bliss.jpg");
+  background-size: cover;
+}
+
+article {
+  max-height: 60vh;
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.window {
+  margin: 2em;
+  width: 70vw;
+  font-size: 16px;
+}
+
+h2 {
+  margin: 0.2em 0;
+  font-size: 2em;
+}
+
+p {
+  font-size: 16px;
+}
+
+.a-little-to-the-side-please {
+  margin-left: 1em;
+}
+
+.can-you-please-stack-these-buttons-please {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
